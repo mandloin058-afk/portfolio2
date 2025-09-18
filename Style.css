@@ -1,0 +1,272 @@
+/* Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #04031f;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* Header */
+header {
+    background-color: #04031f;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 10px;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+header h1:hover{
+scale: 1.05;
+    box-shadow:15px 15px  #e2ddda ;
+    color: #ff6600;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px ;
+}
+
+header nav {
+    float: right;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li :hover {
+    scale: 1.05;
+    box-shadow:15px 15px  #e2ddda ;
+    color: #ff6600;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px ;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hero Section */
+#hero {
+    padding: 60px 0;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    width: 400px;
+}
+.hero-text h2:hover{
+    scale: 1.05;
+    box-shadow:15px 15px  #e2ddda ;
+    color: #ff6600;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px ;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+.hero-text p:hover{
+    text-shadow:15px 15px  #e65c00 ;
+    color: #e65c00;
+    text-shadow: 5px 5px 5px ;
+}
+
+.hero-text button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #e65c00;
+     scale: 1.05;
+    text-shadow:15px 15px  #6c330f ;
+    color: #eee7e3;
+    border-radius: 5px;
+    text-shadow: 5px 5px 35px ;
+
+}
+
+.hero-image img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    width: 200px;
+    margin-top: 100px;
+}
+ section h2:hover{
+    scale: 1.05;
+    box-shadow:15px 15px  #e2ddda ;
+    color: #ff6600;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px ;
+
+
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+section p:hover{
+    text-shadow:15px 15px  #e65c00 ;
+    color: #e65c00;
+    text-shadow: 5px 5px 5px ;
+}
+/* Skills */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: #1f1f1f; 
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 70vw;
+}
+#skills ul li:hover{
+    box-shadow:15px 15px  #e2ddda ;
+    color: #ff6600;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px ;
+   
+}
+
+/* Contact Form */
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input,
+#contact textarea {
+    background-color: #1f1f1f;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+#contact textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+#contact textarea:hover, #contact input:hover {
+    box-shadow:15px 15px  #e2ddda ;
+    color: #ff6600;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px ;
+}
+
+#contact button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    /* background-color: #e65c00; */
+     background-color: #e65c00;
+     scale: 1.05;
+    text-shadow:15px 15px  #6c330f ;
+    color: #eee7e3;
+    border-radius: 5px;
+    text-shadow: 5px 15px 35px ;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 20px 0;
+}
+footer:hover{
+     box-shadow:15px 15px  #e2ddda ;
+    color: #ff6600;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px ;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .hero-image img {
+         margin-top: 10vh;
+        }
+}
